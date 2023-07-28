@@ -1,4 +1,4 @@
-_printf Function
+I_printf Function
 
 The _printf function is a custom implementation of the printf function in C, which allows printing formatted output to the standard output (usually the console). The function provides support for various format specifiers, such as %d for integers, %s for strings, %c for characters, %u for unsigned integers, %x and %X for hexadecimal, %o for octal, and %% for the percent symbol, among others.
 Usage
@@ -61,6 +61,8 @@ int main(void)
     printf("Unknown:[%r]\n");
     return (0);
 }
+
+To compile this code, it is used "$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c".
 
 The above code demonstrates various uses of the _printf function and how it compares to the standard printf function.
 License
